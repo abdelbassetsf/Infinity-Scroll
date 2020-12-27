@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
 
 html {
   box-sizing: border-box;
@@ -5,5 +6,55 @@ html {
 
 body {
   margin: 0;
-  min-height: 100vh;
+  font-family: 'Hanalei Fill', sans-serif;
+  background: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  color: #1f4eb4;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: linear-gradient(45deg, #87e487 0, #1b800e 100%);
+  border-bottom: 5px solid #1f4eb4;
+  border-top: 5px solid #1f4eb4;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-container {
+  margin: 10px 30%;
+}
+
+.image-container img {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+/* Media Queries: large Screen Smart Phones */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
 }
