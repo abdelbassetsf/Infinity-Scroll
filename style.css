@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
 
-html {
+* {
   box-sizing: border-box;
 }
 
@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: 'Hanalei Fill', sans-serif;
   background: whitesmoke;
+  height: 400vh;
 }
 
 h1 {
